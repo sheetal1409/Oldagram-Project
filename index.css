@@ -1,0 +1,138 @@
+body {
+    margin: 0;
+    width:375px;
+    margin:0 auto;
+    height: 2000px;
+    background-color: #EDEDED;
+  
+} 
+  
+ header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 67px;
+    width: 375px;
+    background-color: #fff;
+    border-bottom: 1px solid #C6C6C6;
+    box-sizing: border-box;
+}
+.sheetal{
+    margin-right: 10px;
+}
+
+.logo{
+    width:127px;
+    height: 33.02px;
+    margin-left:15px;
+}
+
+.insta-card { 
+  background-color: #fff;
+  margin-top: 5px;
+}
+
+.user{
+    width:34px;
+    height: 34px;
+    border-radius: 50%;
+   
+}
+
+.user-details {
+    width:348px;
+    height:34px;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    font-family:'Source Sans Pro';
+    padding-top: 10px;
+}
+
+.nameloc{
+    display: flex;
+    flex-direction: column;
+    margin-top:0px;
+    margin-left: 10px;
+}
+
+.nameloc h3{
+    font-size:13px;
+    font-weight: 700px;
+    margin-bottom:0px;
+    height: 16.34px;
+}
+
+.nameloc h4{
+    font-size:12px;
+    font-weight: normal;
+    margin-top:0px;
+    height: 15.08px;
+ 
+}
+.post img{
+    width:375px;
+    height: 375px;
+}
+
+.commentsection {
+    position: relative;
+    width:375;
+    height: 78px;
+    margin-left: 13px;
+    padding-bottom: 10px;
+}
+.icons{
+    display: flex;
+    width:104.34px;
+    height:22.13px;
+    justify-content: space-around;
+    margin-top:10px;
+}
+
+.heart{
+   width:23.3px;
+   height: 22.13px;
+}
+
+.dm{
+   width:22.38px;
+   height: 18.68px;
+   border-radius: 0.58px;
+}
+
+.comment{
+   width:18.65px;
+   height:18.65px
+}
+
+.commentsection h3{
+    width:343px;
+    height: 16px;
+    font-size: 13px;
+    font-weight: 700px;
+    margin-left: 13px;
+    padding-bottom: 0px;
+}
+
+.commentsection p{
+    margin-left: 13px;
+    width:343px;
+    height: 16.34px;
+    font-size: 13px;
+    font-weight:700px;
+    color:#000000;
+    padding-bottom: 20px;
+}
+
+.commentsection span{
+font-weight: normal;
+padding-bottom: 20px;
+}
+
+.insta-card-footer{
+    padding-bottom:10px;
+}
